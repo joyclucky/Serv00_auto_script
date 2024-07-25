@@ -85,7 +85,7 @@ for choice in $choices; do
     case $choice in
         1)
             use_wecom=true
-            download_python_file "https://raw.githubusercontent.com/curry-he/Serv00_auto_script/master/Auto_connect_SSH-WeCom.py" "Auto_connect_SSH-WeCom.py"
+            download_python_file "https://raw.githubusercontent.com/joyclucky/Serv00_auto_script/master/Auto_connect_SSH-WeCom.py" "Auto_connect_SSH-WeCom.py"
             install_required_modules "Auto_connect_SSH-WeCom.py"
             ;;
         2)
